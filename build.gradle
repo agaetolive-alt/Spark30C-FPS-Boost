@@ -2,13 +2,13 @@ plugins {
     id "fabric-loom" version "1.5.4"
 }
 
+group = "com.spark30c"
+version = "1.0.0"
+
 repositories {
     maven { url "https://maven.fabricmc.net/" }
     mavenCentral()
 }
-
-group = "com.spark30c"
-version = "1.0.0"
 
 dependencies {
     minecraft "com.mojang:minecraft:1.21.1"
