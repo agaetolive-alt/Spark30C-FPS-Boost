@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.spark30c.culling",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityCullingMixin"
+  ],
+  "client": [
+    "EntityCullingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
