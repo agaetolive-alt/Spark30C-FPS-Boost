@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "spark30c_boost",
+  "version": "1.0.0",
+  "name": "Spark30C FPS Boost",
+  "description": "Entity Culling + RAM Cleaner for Tecno Spark 30C 5G Mali-G57",
+  "authors": ["Spark30C"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.spark30c.SparkBoostMod"
+    ]
+  },
+  "mixins": [
+    "spark30c.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21"
+  }
+}
